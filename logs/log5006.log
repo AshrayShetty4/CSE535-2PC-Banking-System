@@ -1,0 +1,971 @@
+2025/12/19 16:24:36.572497 Creating new node at port :5006
+2025/12/19 16:24:36.813310 Created new node
+2025/12/19 16:24:36.814012 Connected with peers
+2025/12/19 16:24:36.820195 Node running on :5006
+2025/12/19 16:24:36.820801 Connected with node: :5004
+2025/12/19 16:24:37.816038 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:39.832988 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:41.834258 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:43.835439 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:45.837442 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:47.838698 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:49.839857 connectPeers: retrying :5005 in 1s...
+2025/12/19 16:24:50.843292 Connected with node: :5005
+2025/12/19 16:25:02.520120 [:5006] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5004
+2025/12/19 16:25:02.541610 Connected with node: :5005
+2025/12/19 16:25:02.545019 Connected with node: :5004
+2025/12/19 16:25:02.921494 [:5006] ResetDB: balances reset to 10 for shard 3001-6000
+2025/12/19 16:25:03.147520 For node :5006 disabled? true
+2025/12/19 16:25:03.822691 [:5006] Accept2PC: disabled
+2025/12/19 16:25:03.830550 [:5006] Accept2PC: disabled
+2025/12/19 16:25:03.876833 [:5006] Accept2PC: disabled
+2025/12/19 16:25:03.877419 [:5006] Accept2PC: disabled
+2025/12/19 16:25:03.921583 [:5006] Accept2PC: disabled
+2025/12/19 16:25:03.935880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.020887 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.036021 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.060878 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.061534 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.077312 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.089791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.122563 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.137572 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.224162 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.237128 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.262547 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.262547 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.290318 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.304249 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.324116 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.338023 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.424892 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.438354 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.464250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.464250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.504494 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.510623 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.524903 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.539004 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.626105 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.638772 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.665124 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.665124 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.705348 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.710902 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.726089 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.739382 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.827835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.839709 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.865625 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.865625 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.906735 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.911985 [:5006] Accept2PC: disabled
+2025/12/19 16:25:04.927675 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.260975 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.261484 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.462319 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.662512 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.662512 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.662512 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.662512 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.663021 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.663021 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.663559 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.663559 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:05.863785 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.064655 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.064655 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.064655 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.065209 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.064655 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.064655 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.065209 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.065209 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.267607 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.469126 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.672762 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673315 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.673366 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875177 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875177 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875177 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875177 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:06.875774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076426 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076426 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076426 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076935 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076935 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076935 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076935 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.076935 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.277774 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.478633 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.679835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.880743 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:07.881281 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.081705 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.086137 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.283476 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.287361 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.484041 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.488751 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.684734 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685257 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685257 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685257 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685257 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685346 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.685257 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.688864 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.886079 [:5006] Accept2PC: disabled
+2025/12/19 16:25:08.889716 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.087119 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.090840 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.287555 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.287555 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.288063 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.288063 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.288063 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.288063 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.288063 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.291221 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489305 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.489813 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.491998 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.689748 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.690256 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.692390 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.890938 [:5006] Accept2PC: disabled
+2025/12/19 16:25:09.894235 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092151 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092151 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092151 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092660 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092660 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092660 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.092739 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.095056 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.293676 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.296162 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.494699 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.497504 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.697835 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.898920 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.898920 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:10.899518 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.100363 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.301657 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.302166 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.503639 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704908 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.704908 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.705525 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.905178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.905178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.905178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.905178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.905806 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.907486 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.907486 [:5006] Accept2PC: disabled
+2025/12/19 16:25:11.907486 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.106957 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.106957 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.106957 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.106957 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.106957 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.107508 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.107508 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.107508 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308043 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.308109 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509204 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.509710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.710775 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.710775 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.710775 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.710775 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.711283 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.711403 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.711930 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.711930 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.911716 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.911207 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.911716 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.913405 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.913405 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.913405 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.913405 [:5006] Accept2PC: disabled
+2025/12/19 16:25:12.913405 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.112395 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.112395 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.112395 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.114573 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.114573 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.114573 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.114573 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.114573 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.313059 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.313059 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.313059 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.315279 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.315279 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.315279 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.315279 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.315279 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.513178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.513178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.513178 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.516264 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.516264 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.516264 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.516264 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.516264 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.714294 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.714294 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.714294 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.717399 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.717399 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.717399 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.717399 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.717399 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.915113 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.915113 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.915113 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.918182 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.918182 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.918182 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.918182 [:5006] Accept2PC: disabled
+2025/12/19 16:25:13.918182 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.116254 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.116254 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.116254 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.119511 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.119511 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.119511 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.119511 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.119511 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.316815 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.316815 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.316815 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.319901 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.319901 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.319901 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.319901 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.319901 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.518165 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.518165 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.518165 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.520684 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.520684 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.520684 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.520684 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.520684 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.718756 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.719282 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.718756 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.722042 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.722042 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.722042 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.722042 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.722042 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.920316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.920316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.920316 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.922475 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.922475 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.922475 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.922475 [:5006] Accept2PC: disabled
+2025/12/19 16:25:14.922475 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.121463 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.121463 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.121463 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.123524 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.123524 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.123524 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.123524 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.123524 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.322373 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.322373 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.322373 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.323950 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.323950 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.324467 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.324467 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.324467 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.523831 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.523831 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.523831 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.524376 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.524376 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.524925 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.524925 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.524925 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.725880 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:15.927267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129146 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.129656 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330104 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330104 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330104 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330612 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330612 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330612 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330612 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.330612 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.531678 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.732474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.935736 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:16.936250 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.136900 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.337769 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.538782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.740343 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:17.941752 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.143107 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.344557 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.345068 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.545899 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.545899 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.545899 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.546980 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.546980 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.546980 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.546980 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.546980 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.747412 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.747921 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.748472 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949933 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949933 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949984 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949933 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949933 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949984 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949984 [:5006] Accept2PC: disabled
+2025/12/19 16:25:18.949984 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.151474 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.150674 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.352033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.552768 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753295 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753295 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753402 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753402 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753402 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753483 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753402 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.753483 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.953790 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.953790 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:19.954297 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.155372 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356199 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356710 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.356791 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557274 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557274 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.557802 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.758697 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.958943 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.958943 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:20.960265 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.159732 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160260 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.160782 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.361451 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563027 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.563537 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.772001 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973440 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973952 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973952 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973952 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973440 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973952 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.973952 [:5006] Accept2PC: disabled
+2025/12/19 16:25:21.974033 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174163 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174163 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174163 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174163 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174672 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174163 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174672 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.174672 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.375267 [:5006] Accept2PC: disabled
+2025/12/19 16:25:22.430589 [:5006] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5004
+2025/12/19 16:25:22.442090 Connected with node: :5005
+2025/12/19 16:25:22.445037 Connected with node: :5004
+2025/12/19 16:25:22.576255 [:5006] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=2001->5001 amt=1.00
+2025/12/19 16:25:22.576255 [:5006] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: ballot=0 seq=3 phase=COMMIT_PHASE txn=5003->2004 amt=1.00
+2025/12/19 16:25:22.576255 [:5006] Accept2PC: ballot=0 seq=3 phase=PREPARE_PHASE txn=5003->2004 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: ballot=0 seq=4 phase=PREPARE_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: ballot=0 seq=4 phase=COMMIT_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=2001->5001 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=2001->5001 amt=1.00 ts=1766179501283187900
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=2 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=2 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=3 ballot=0 txn=5003->2004 amt=1.00 ts=1766179501283187904
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=3 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=3 ballot=0 txn=5003->2004 amt=1.00 ts=1766179501283187904
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=3 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=4 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=4 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:22.576781 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=2001->5001 amt=1.00 ts=1766179501283187900
+2025/12/19 16:25:22.576781 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:22.744708 [:5006] ResetDB: balances reset to 10 for shard 3001-6000
+2025/12/19 16:25:22.950104 For node :5006 disabled? false
+2025/12/19 16:25:22.951798 Connected with node: :5005
+2025/12/19 16:25:22.951798 Connected with node: :5004
+2025/12/19 16:25:23.351242 [:5006] catchup: fetching logs from :5004
+2025/12/19 16:25:23.548004 [:5006] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=1001->4001 amt=1.00
+2025/12/19 16:25:23.550181 [:5006] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=1001->4001 amt=1.00
+2025/12/19 16:25:23.562904 [:5006] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=1001->4001 amt=1.00
+2025/12/19 16:25:23.563423 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=1001->4001 amt=1.00 ts=1766179501283187906
+2025/12/19 16:25:23.563423 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:23.564054 [:5006] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=1001->4001 amt=1.00
+2025/12/19 16:25:23.564054 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:23.564054 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=1001->4001 amt=1.00 ts=1766179501283187906
+2025/12/19 16:25:23.564054 For node::5006
+
+2025/12/19 16:25:23.564054 (Execute 0 1 
+2025/12/19 16:25:23.564054 (1001 4001 1.000000)
+2025/12/19 16:25:23.564054 )
+2025/12/19 16:25:23.564054 
+
+2025/12/19 16:25:23.564054 [:5006] Balances after txn 1001->4001 ts=1766179501283187906 : from=10 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:23.565762 [:5006] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=1002->4001 amt=1.00
+2025/12/19 16:25:23.565762 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=1002->4001 amt=1.00 ts=1766179501283187907
+2025/12/19 16:25:23.565762 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:23.566864 [:5006] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=1002->4001 amt=1.00
+2025/12/19 16:25:23.573689 [:5006] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=1002->4001 amt=1.00
+2025/12/19 16:25:23.573689 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=1002->4001 amt=1.00 ts=1766179501283187907
+2025/12/19 16:25:23.573689 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:23.574334 [:5006] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=1002->4001 amt=1.00
+2025/12/19 16:25:23.574334 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:23.574334 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=1002->4001 amt=1.00 ts=1766179501283187907
+2025/12/19 16:25:23.574334 For node::5006
+
+2025/12/19 16:25:23.574334 (Execute 0 1 
+2025/12/19 16:25:23.574334 (1001 4001 1.000000)
+2025/12/19 16:25:23.574334 )
+2025/12/19 16:25:23.574334 
+
+2025/12/19 16:25:23.574849 [:5006] Balances after txn 1002->4001 ts=1766179501283187907 : from=10 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:23.663836 [:5006] WAL saved seq=1 fromID=1001 trackFrom=false beforeFrom=0 toID=4001 trackTo=true beforeTo=10
+2025/12/19 16:25:24.899331 [:5006] WAL saved seq=1 fromID=1002 trackFrom=false beforeFrom=0 toID=4001 trackTo=true beforeTo=10
+2025/12/19 16:25:25.077019 [:5006] executeCrossShardWithWal applied seq=1
+2025/12/19 16:25:25.077019 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:25.077948 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=1001->4001 amt=1.00 ts=1766179501283187906
+2025/12/19 16:25:25.077948 [:5006] Balances after txn 1001->4001 ts=1766179501283187906 : from=10 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:25:25.325274 [:5006] executeCrossShardWithWal applied seq=1
+2025/12/19 16:25:25.325406 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:25.325406 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=1002->4001 amt=1.00 ts=1766179501283187907
+2025/12/19 16:25:25.325406 [:5006] Balances after txn 1002->4001 ts=1766179501283187907 : from=10 (err=<nil>) to=12 (err=<nil>)
+2025/12/19 16:25:31.019607 [:5006] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=1003->4001 amt=1.00
+2025/12/19 16:25:31.020119 [:5006] Commit2PC: seq=2 ballot=0 phase=PREPARE_PHASE txn=1003->4001 amt=1.00
+2025/12/19 16:25:31.025591 [:5006] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=1003->4001 amt=1.00
+2025/12/19 16:25:31.025591 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=1003->4001 amt=1.00 ts=1766179501283187908
+2025/12/19 16:25:31.025591 [:5006] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:31.026197 [:5006] Commit2PC: seq=2 ballot=0 phase=COMMIT_PHASE txn=1003->4001 amt=1.00
+2025/12/19 16:25:31.026197 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:31.026197 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=1003->4001 amt=1.00 ts=1766179501283187908
+2025/12/19 16:25:31.124281 For node::5006
+
+2025/12/19 16:25:31.124331 (Execute 0 1 
+2025/12/19 16:25:31.124331 (1001 4001 1.000000)
+2025/12/19 16:25:31.124331 )
+2025/12/19 16:25:31.124331 (Execute 0 2 
+2025/12/19 16:25:31.124331 (1003 4001 1.000000)
+2025/12/19 16:25:31.124383 )
+2025/12/19 16:25:31.124383 
+
+2025/12/19 16:25:31.124383 [:5006] Balances after txn 1003->4001 ts=1766179501283187908 : from=0 (err=<nil>) to=12 (err=<nil>)
+2025/12/19 16:25:31.201284 [:5006] WAL saved seq=2 fromID=1003 trackFrom=false beforeFrom=0 toID=4001 trackTo=true beforeTo=12
+2025/12/19 16:25:31.394989 [:5006] executeCrossShardWithWal applied seq=2
+2025/12/19 16:25:31.395756 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:31.395756 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=1003->4001 amt=1.00 ts=1766179501283187908
+2025/12/19 16:25:31.395756 [:5006] Balances after txn 1003->4001 ts=1766179501283187908 : from=0 (err=<nil>) to=13 (err=<nil>)
+2025/12/19 16:25:38.421245 [:5006] got Prepare, ballot 1 (current 0)
+2025/12/19 16:25:38.462158 [:5006] RECEIVED NEW-VIEW from :5005 (ballot 1)
+2025/12/19 16:26:05.705399 [:5006] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5004
+2025/12/19 16:26:05.714444 Connected with node: :5005
+2025/12/19 16:26:05.718025 Connected with node: :5004
+2025/12/19 16:26:05.995798 [:5006] ResetDB: balances reset to 10 for shard 3001-6000
+2025/12/19 16:26:06.263482 For node :5006 disabled? false
+2025/12/19 16:26:06.267052 Connected with node: :5004
+2025/12/19 16:26:06.268131 Connected with node: :5005
+2025/12/19 16:26:06.663719 [:5006] catchup: fetching logs from :5004
+2025/12/19 16:26:06.963653 [:5006] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=1->3001 amt=1.00
+2025/12/19 16:26:06.963653 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=1->3001 amt=1.00 ts=1766179501283187910
+2025/12/19 16:26:06.963653 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:26:06.964185 [:5006] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=1->3001 amt=1.00
+2025/12/19 16:26:07.912824 [:5006] WAL saved seq=1 fromID=1 trackFrom=false beforeFrom=0 toID=3001 trackTo=true beforeTo=10
+2025/12/19 16:26:07.973154 [:5006] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=1->3001 amt=1.00
+2025/12/19 16:26:07.973154 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=1->3001 amt=1.00 ts=1766179501283187910
+2025/12/19 16:26:07.973154 [:5006] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:26:07.973154 [:5006] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=1->3001 amt=1.00
+2025/12/19 16:26:07.973154 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:26:07.973154 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=1->3001 amt=1.00 ts=1766179501283187910
+2025/12/19 16:26:07.973154 For node::5006
+
+2025/12/19 16:26:07.973154 (Execute 0 1 
+2025/12/19 16:26:07.973154 (1 3001 1.000000)
+2025/12/19 16:26:07.973682 )
+2025/12/19 16:26:07.973682 
+
+2025/12/19 16:26:07.973682 [:5006] Balances after txn 1->3001 ts=1766179501283187910 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:26:08.056065 [:5006] executeCrossShardWithWal applied seq=1
+2025/12/19 16:26:08.056857 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:26:08.056857 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=1->3001 amt=1.00 ts=1766179501283187910
+2025/12/19 16:26:08.056857 [:5006] Balances after txn 1->3001 ts=1766179501283187910 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:26:09.759557 [:5006] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=3001->2 amt=1.00
+2025/12/19 16:26:09.759557 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=2 ballot=0 txn=3001->2 amt=1.00 ts=1766179501283187913
+2025/12/19 16:26:09.759557 [:5006] Accept2PC: accepted seq=2 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:26:09.760164 [:5006] Commit2PC: seq=2 ballot=0 phase=PREPARE_PHASE txn=3001->2 amt=1.00
+2025/12/19 16:26:09.764655 [:5006] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=3001->2 amt=1.00
+2025/12/19 16:26:09.764655 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=3001->2 amt=1.00 ts=1766179501283187913
+2025/12/19 16:26:09.764655 [:5006] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:26:09.765185 [:5006] Commit2PC: seq=2 ballot=0 phase=COMMIT_PHASE txn=3001->2 amt=1.00
+2025/12/19 16:26:09.765185 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:26:09.765185 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=3001->2 amt=1.00 ts=1766179501283187913
+2025/12/19 16:26:09.765185 For node::5006
+
+2025/12/19 16:26:09.765185 (Execute 0 1 
+2025/12/19 16:26:09.765185 (1 3001 1.000000)
+2025/12/19 16:26:09.765185 )
+2025/12/19 16:26:09.765185 (Execute 0 2 
+2025/12/19 16:26:09.765728 (3001 2 1.000000)
+2025/12/19 16:26:09.765728 )
+2025/12/19 16:26:09.765728 
+
+2025/12/19 16:26:09.765728 [:5006] Balances after txn 3001->2 ts=1766179501283187913 : from=11 (err=<nil>) to=0 (err=<nil>)
+2025/12/19 16:26:09.914760 [:5006] WAL saved seq=2 fromID=3001 trackFrom=true beforeFrom=11 toID=2 trackTo=false beforeTo=0
+2025/12/19 16:26:10.088444 [:5006] executeCrossShardWithWal applied seq=2
+2025/12/19 16:26:10.088813 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:26:10.088813 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=3001->2 amt=1.00 ts=1766179501283187913
+2025/12/19 16:26:10.088813 [:5006] Balances after txn 3001->2 ts=1766179501283187913 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/19 16:26:11.055772 [:5006] Accept2PC: ballot=0 seq=3 phase=PREPARE_PHASE txn=3->3001 amt=1.00
+2025/12/19 16:26:11.055772 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=3 ballot=0 txn=3->3001 amt=1.00 ts=1766179501283187916
+2025/12/19 16:26:11.055772 [:5006] Accept2PC: accepted seq=3 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:26:11.056391 [:5006] Commit2PC: seq=3 ballot=0 phase=PREPARE_PHASE txn=3->3001 amt=1.00
+2025/12/19 16:26:11.171270 [:5006] Accept2PC: ballot=0 seq=3 phase=COMMIT_PHASE txn=3->3001 amt=1.00
+2025/12/19 16:26:11.171270 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=3 ballot=0 txn=3->3001 amt=1.00 ts=1766179501283187916
+2025/12/19 16:26:11.171270 [:5006] Accept2PC: accepted seq=3 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:26:11.171797 [:5006] Commit2PC: seq=3 ballot=0 phase=COMMIT_PHASE txn=3->3001 amt=1.00
+2025/12/19 16:26:11.171797 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:26:11.171797 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=3 ballot=0 txn=3->3001 amt=1.00 ts=1766179501283187916
+2025/12/19 16:26:11.171797 For node::5006
+
+2025/12/19 16:26:11.171797 (Execute 0 1 
+2025/12/19 16:26:11.171797 (1 3001 1.000000)
+2025/12/19 16:26:11.171797 )
+2025/12/19 16:26:11.171797 (Execute 0 2 
+2025/12/19 16:26:11.171797 (3001 2 1.000000)
+2025/12/19 16:26:11.171797 )
+2025/12/19 16:26:11.171797 (Execute 0 3 
+2025/12/19 16:26:11.171797 (3 3001 1.000000)
+2025/12/19 16:26:11.171797 )
+2025/12/19 16:26:11.171797 
+
+2025/12/19 16:26:11.171797 [:5006] Balances after txn 3->3001 ts=1766179501283187916 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:26:11.198230 [:5006] WAL saved seq=3 fromID=3 trackFrom=false beforeFrom=0 toID=3001 trackTo=true beforeTo=10
+2025/12/19 16:26:11.363561 [:5006] executeCrossShardWithWal applied seq=3
+2025/12/19 16:26:11.363561 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:26:11.363561 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=3->3001 amt=1.00 ts=1766179501283187916
+2025/12/19 16:26:11.363561 [:5006] Balances after txn 3->3001 ts=1766179501283187916 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:26:18.178630 [:5006] Accept2PC: ballot=0 seq=4 phase=PREPARE_PHASE txn=4->3001 amt=1.00
+2025/12/19 16:26:18.178630 [:5006] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=4 ballot=0 txn=4->3001 amt=1.00 ts=1766179501283187918
+2025/12/19 16:26:18.178630 [:5006] Accept2PC: accepted seq=4 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:26:18.179290 [:5006] Commit2PC: seq=4 ballot=0 phase=PREPARE_PHASE txn=4->3001 amt=1.00
+2025/12/19 16:26:18.183357 [:5006] Accept2PC: ballot=0 seq=4 phase=COMMIT_PHASE txn=4->3001 amt=1.00
+2025/12/19 16:26:18.183357 [:5006] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=4 ballot=0 txn=4->3001 amt=1.00 ts=1766179501283187918
+2025/12/19 16:26:18.183357 [:5006] Accept2PC: accepted seq=4 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:26:18.183971 [:5006] Commit2PC: seq=4 ballot=0 phase=COMMIT_PHASE txn=4->3001 amt=1.00
+2025/12/19 16:26:18.184035 [:5006] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:26:18.184035 [:5006] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=4 ballot=0 txn=4->3001 amt=1.00 ts=1766179501283187918
+2025/12/19 16:26:18.184035 For node::5006
+
+2025/12/19 16:26:18.184035 (Execute 0 1 
+2025/12/19 16:26:18.184035 (1 3001 1.000000)
+2025/12/19 16:26:18.184035 )
+2025/12/19 16:26:18.184035 (Execute 0 2 
+2025/12/19 16:26:18.184035 (3001 2 1.000000)
+2025/12/19 16:26:18.184035 )
+2025/12/19 16:26:18.184035 (Execute 0 3 
+2025/12/19 16:26:18.184035 (3 3001 1.000000)
+2025/12/19 16:26:18.184035 )
+2025/12/19 16:26:18.184035 (Execute 0 4 
+2025/12/19 16:26:18.184035 (4 3001 1.000000)
+2025/12/19 16:26:18.184035 )
+2025/12/19 16:26:18.184035 
+
+2025/12/19 16:26:18.184035 [:5006] Balances after txn 4->3001 ts=1766179501283187918 : from=10 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:26:18.381082 [:5006] WAL saved seq=4 fromID=4 trackFrom=false beforeFrom=0 toID=3001 trackTo=true beforeTo=11
+2025/12/19 16:26:18.525981 [:5006] executeCrossShardWithWal applied seq=4
+2025/12/19 16:26:18.526245 [:5006] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:26:18.526245 [:5006] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=4->3001 amt=1.00 ts=1766179501283187918
+2025/12/19 16:26:18.526245 [:5006] Balances after txn 4->3001 ts=1766179501283187918 : from=10 (err=<nil>) to=12 (err=<nil>)

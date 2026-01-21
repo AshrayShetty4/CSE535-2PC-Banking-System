@@ -1,0 +1,242 @@
+2025/12/13 16:12:17.047826 Creating new node at port :5016
+2025/12/13 16:12:17.211737 Created new node
+2025/12/13 16:12:17.212329 Connected with peers
+2025/12/13 16:12:17.216818 Node running on :5016
+2025/12/13 16:12:18.215134 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:18.215653 connectPeers: retrying :5018 in 1s...
+2025/12/13 16:12:18.215653 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:18.215653 connectPeers: retrying :5017 in 1s...
+2025/12/13 16:12:20.216093 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:20.216093 connectPeers: retrying :5017 in 1s...
+2025/12/13 16:12:20.216093 connectPeers: retrying :5018 in 1s...
+2025/12/13 16:12:20.216093 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:21.218223 Connected with node: :5017
+2025/12/13 16:12:22.218160 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:22.218160 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:22.218160 connectPeers: retrying :5018 in 1s...
+2025/12/13 16:12:24.219354 connectPeers: retrying :5018 in 1s...
+2025/12/13 16:12:24.219354 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:24.219354 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:25.221103 Connected with node: :5018
+2025/12/13 16:12:26.220403 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:26.220403 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:28.221198 connectPeers: retrying :5019 in 1s...
+2025/12/13 16:12:28.221198 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:29.222678 Connected with node: :5019
+2025/12/13 16:12:30.221873 connectPeers: retrying :5020 in 1s...
+2025/12/13 16:12:31.224045 Connected with node: :5020
+2025/12/13 16:12:53.154353 [:5016] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5016
+2025/12/13 16:12:53.155390 Send Heartbeat
+2025/12/13 16:12:53.160952 Connected with node: :5020
+2025/12/13 16:12:53.160952 Connected with node: :5019
+2025/12/13 16:12:53.164926 Connected with node: :5018
+2025/12/13 16:12:53.166670 Connected with node: :5017
+2025/12/13 16:12:53.466721 [:5016] ResetDB: balances reset to 10 for shard 5401-7200
+2025/12/13 16:12:53.887462 For node :5016 disabled? true
+2025/12/13 22:09:11.654576 [:5016] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5016
+2025/12/13 22:09:11.663393 Send Heartbeat
+2025/12/13 22:09:11.666617 Connected with node: :5020
+2025/12/13 22:09:11.671642 Connected with node: :5018
+2025/12/13 22:09:11.673228 Connected with node: :5019
+2025/12/13 22:09:11.682497 Connected with node: :5017
+2025/12/13 22:09:11.948851 [:5016] ResetDB: balances reset to 10 for shard 5401-7200
+2025/12/13 22:09:12.382291 For node :5016 disabled? false
+2025/12/13 22:09:12.383566 Connected with node: :5018
+2025/12/13 22:09:12.383566 Connected with node: :5017
+2025/12/13 22:09:12.384074 Connected with node: :5019
+2025/12/13 22:09:12.384074 Connected with node: :5020
+2025/12/13 22:09:12.784229 [:5016] catchup: no leader found
+2025/12/13 22:09:12.784229 Send Heartbeat
+2025/12/13 22:09:13.025439 [:5016] Prepare2PC: locked 5401 for txn 3-5401-1765681750032367402
+2025/12/13 22:09:13.042083 [:5016] Prepare2PC: locked 5402 for txn 1803-5402-1765681750032367405
+2025/12/13 22:09:13.140252 [:5016] broadcastAccept2PC: seq=1 ballot=0 phase=PREPARE_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.140252 [:5016] broadcastAccept2PC: seq=2 ballot=0 phase=PREPARE_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.054793 [:5016] Prepare2PC: locked 5403 for txn 3603-5403-1765681750032367407
+2025/12/13 22:09:13.140252 [:5016] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=1803->5402 amt=1.00
+2025/12/13 22:09:13.140252 [:5016] broadcastAccept2PC: seq=3 ballot=0 phase=PREPARE_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.140252 [:5016] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=3->5401 amt=1.00
+2025/12/13 22:09:13.055854 [:5016] Request2PC: cross-shard txn 5404->7204 coordPeers=[:5016 :5017 :5018 :5019 :5020] partPeers=[:5021 :5022 :5023 :5024 :5025]
+2025/12/13 22:09:13.140252 [:5016] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.140252 [:5016] Accept2PC: accepted seq=2 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.140252 [:5016] Accept2PC: ballot=0 seq=3 phase=PREPARE_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.140252 [:5016] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.140252 [:5016] Accept2PC: accepted seq=3 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.141400 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase PREPARE_PHASE
+2025/12/13 22:09:13.140808 [:5016] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.141913 [:5016] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.142442 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.142442 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase PREPARE_PHASE
+2025/12/13 22:09:13.142442 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.142442 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.142543 [:5016] Prepare2PC: quorum accepted seq=3 ballot=0
+2025/12/13 22:09:13.142543 [:5016] Prepare2PC: executeCrossShard succeeded
+2025/12/13 22:09:13.142543 [:5016] Balances after txn 3603->5403 ts=1765681750032367407 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.142543 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.142543 [:5016] Prepare2PC: quorum accepted seq=2 ballot=0
+2025/12/13 22:09:13.142543 [:5016] Prepare2PC: executeCrossShard succeeded
+2025/12/13 22:09:13.142543 [:5016] Balances after txn 1803->5402 ts=1765681750032367405 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.143098 [:5016] Commit2PC: seq=2 ballot=0 phase=PREPARE_PHASE txn=1803->5402 amt=1.00
+2025/12/13 22:09:13.143098 [:5016] Commit2PC: seq=3 ballot=0 phase=PREPARE_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.143098 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase PREPARE_PHASE
+2025/12/13 22:09:13.143098 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.143098 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.143098 [:5016] Prepare2PC: quorum accepted seq=1 ballot=0
+2025/12/13 22:09:13.143098 [:5016] Prepare2PC: executeCrossShard succeeded
+2025/12/13 22:09:13.143098 [:5016] Balances after txn 3->5401 ts=1765681750032367402 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.143098 [:5016] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=3->5401 amt=1.00
+2025/12/13 22:09:13.148259 [:5016] Prepare2PC: locked 7204 for txn 5404-7204-1765681750032367409
+2025/12/13 22:09:13.148259 [:5016] broadcastAccept2PC: seq=4 ballot=0 phase=PREPARE_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.148259 [:5016] Accept2PC: ballot=0 seq=4 phase=PREPARE_PHASE txn=5404->7204 amt=1.00
+2025/12/13 22:09:13.148259 [:5016] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.148259 [:5016] Accept2PC: accepted seq=4 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.148259 [:5016] broadcastAccept2PC: seq=1 ballot=0 phase=COMMIT_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.148259 [:5016] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=3->5401 amt=1.00
+2025/12/13 22:09:13.148259 [:5016] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.148259 [:5016] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.149307 [:5016] broadcastAccept2PC: seq=3 ballot=0 phase=COMMIT_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.149307 [:5016] Accept2PC: ballot=0 seq=3 phase=COMMIT_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.149307 [:5016] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.149307 [:5016] Accept2PC: accepted seq=3 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.149307 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase PREPARE_PHASE
+2025/12/13 22:09:13.149307 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.149307 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.149307 [:5016] Prepare2PC: quorum accepted seq=4 ballot=0
+2025/12/13 22:09:13.149307 [:5016] Prepare2PC: executeCrossShard succeeded
+2025/12/13 22:09:13.149307 [:5016] Balances after txn 5404->7204 ts=1765681750032367409 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:09:13.149307 [:5016] run2PCPrepareAsCoordinator: prepare succeeded; starting commit phase
+2025/12/13 22:09:13.149855 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase COMMIT_PHASE
+2025/12/13 22:09:13.149855 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.149855 [:5016] CommitPhase2PC: commit quorum achieved seq=1
+2025/12/13 22:09:13.149307 [:5016] broadcastAccept2PC: seq=2 ballot=0 phase=COMMIT_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.149855 [:5016] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=1803->5402 amt=1.00
+2025/12/13 22:09:13.149855 [:5016] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.149855 [:5016] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.149855 [:5016] Commit2PC: seq=4 ballot=0 phase=PREPARE_PHASE txn=5404->7204 amt=1.00
+2025/12/13 22:09:13.149855 [:5016] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=3->5401 amt=1.00
+2025/12/13 22:09:13.149855 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase COMMIT_PHASE
+2025/12/13 22:09:13.149855 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.149855 [:5016] CommitPhase2PC: commit quorum achieved seq=3
+2025/12/13 22:09:13.149855 [:5016] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.149855 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:13.149855 For node::5016
+
+2025/12/13 22:09:13.149855 (Execute 0 1 
+2025/12/13 22:09:13.149855 (3 5401 1.000000)
+2025/12/13 22:09:13.149855 )
+2025/12/13 22:09:13.149855 
+
+2025/12/13 22:09:13.149855 [:5016] Balances after txn 3->5401 ts=1765681750032367402 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.149855 [:5016] Commit2PC: seq=3 ballot=0 phase=COMMIT_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.149855 [:5016] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.149855 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.149855 For node::5016
+
+2025/12/13 22:09:13.149855 (Execute 0 1 
+2025/12/13 22:09:13.149855 (3 5401 1.000000)
+2025/12/13 22:09:13.149855 )
+2025/12/13 22:09:13.149855 (Execute 0 3 
+2025/12/13 22:09:13.149855 (3603 5403 1.000000)
+2025/12/13 22:09:13.149855 )
+2025/12/13 22:09:13.149855 
+
+2025/12/13 22:09:13.149855 [:5016] Balances after txn 3603->5403 ts=1765681750032367407 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.150509 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase COMMIT_PHASE
+2025/12/13 22:09:13.150509 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.150509 [:5016] CommitPhase2PC: commit quorum achieved seq=2
+2025/12/13 22:09:13.150509 [:5016] Commit2PC: seq=2 ballot=0 phase=COMMIT_PHASE txn=1803->5402 amt=1.00
+2025/12/13 22:09:13.150509 [:5016] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.150509 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:13.150509 For node::5016
+
+2025/12/13 22:09:13.150509 (Execute 0 1 
+2025/12/13 22:09:13.150509 (3 5401 1.000000)
+2025/12/13 22:09:13.150509 )
+2025/12/13 22:09:13.150509 (Execute 0 2 
+2025/12/13 22:09:13.150509 (1803 5402 1.000000)
+2025/12/13 22:09:13.150509 )
+2025/12/13 22:09:13.150509 (Execute 0 3 
+2025/12/13 22:09:13.150509 (3603 5403 1.000000)
+2025/12/13 22:09:13.150509 )
+2025/12/13 22:09:13.150509 
+
+2025/12/13 22:09:13.150509 [:5016] Balances after txn 1803->5402 ts=1765681750032367405 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.154083 [:5016] broadcastAccept2PC: seq=4 ballot=0 phase=COMMIT_PHASE peers=[:5016 :5017 :5018 :5019 :5020] quorum=3
+2025/12/13 22:09:13.154083 [:5016] Accept2PC: ballot=0 seq=4 phase=COMMIT_PHASE txn=5404->7204 amt=1.00
+2025/12/13 22:09:13.154083 [:5016] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.154083 [:5016] Accept2PC: accepted seq=4 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.154609 [:5016] broadcastAccept2PC: quorum reached (3/3) for phase COMMIT_PHASE
+2025/12/13 22:09:13.155145 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.155145 [:5016] CommitPhase2PC: commit quorum achieved seq=4
+2025/12/13 22:09:13.155145 [:5016] run2PCPrepareAsCoordinator: commit phase succeeded, seq: 4, prepSeq: 4
+2025/12/13 22:09:13.155145 [:5016] Request2PC: prepare succeeded
+2025/12/13 22:09:13.155145 [:5016] Commit2PC: seq=4 ballot=0 phase=COMMIT_PHASE txn=5404->7204 amt=1.00
+2025/12/13 22:09:13.155145 [:5016] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.155145 [:5016] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:13.155145 For node::5016
+
+2025/12/13 22:09:13.155145 (Execute 0 1 
+2025/12/13 22:09:13.155145 (3 5401 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 2 
+2025/12/13 22:09:13.155145 (1803 5402 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 3 
+2025/12/13 22:09:13.155145 (3603 5403 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 4 
+2025/12/13 22:09:13.155145 (5404 7204 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 
+
+2025/12/13 22:09:13.155145 [:5016] Balances after txn 5404->7204 ts=1765681750032367409 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:09:14.153799 [:5016] WAL saved seq=2 fromID=1803 trackFrom=false beforeFrom=0 toID=5402 trackTo=true beforeTo=10
+2025/12/13 22:09:14.348254 [:5016] executeCrossShardWithWal applied seq=2
+2025/12/13 22:09:14.348254 [:5016] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:14.348254 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=1803->5402 amt=1.00 ts=1765681750032367405
+2025/12/13 22:09:14.348254 [:5016] Balances after txn 1803->5402 ts=1765681750032367405 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/13 22:09:14.529615 [:5016] WAL saved seq=3 fromID=3603 trackFrom=false beforeFrom=0 toID=5403 trackTo=true beforeTo=10
+2025/12/13 22:09:14.715678 [:5016] WAL saved seq=1 fromID=3 trackFrom=false beforeFrom=0 toID=5401 trackTo=true beforeTo=10
+2025/12/13 22:09:14.889067 [:5016] WAL saved seq=4 fromID=5404 trackFrom=true beforeFrom=10 toID=7204 trackTo=false beforeTo=0
+2025/12/13 22:09:15.142400 [:5016] executeCrossShardWithWal applied seq=3
+2025/12/13 22:09:15.142400 [:5016] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.142400 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:15.142400 [:5016] Balances after txn 3603->5403 ts=1765681750032367407 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/13 22:09:15.469583 [:5016] executeCrossShardWithWal applied seq=1
+2025/12/13 22:09:15.469583 [:5016] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.469583 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=3->5401 amt=1.00 ts=1765681750032367402
+2025/12/13 22:09:15.469583 [:5016] Balances after txn 3->5401 ts=1765681750032367402 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/13 22:09:15.602001 [:5016] executeCrossShardWithWal applied seq=4
+2025/12/13 22:09:15.602271 [:5016] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.602271 [:5016] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=5404->7204 amt=1.00 ts=1765681750032367409
+2025/12/13 22:09:15.602271 [:5016] Balances after txn 5404->7204 ts=1765681750032367409 : from=9 (err=<nil>) to=0 (err=<nil>)
+2025/12/14 01:11:02.225385 [:5016] got Prepare, ballot 1 (current 0)
+2025/12/14 01:11:02.244806 [:5016] RECEIVED NEW-VIEW from :5018 (ballot 1)
+2025/12/14 02:13:18.500555 [:5016] heartbeat timeout, starting election
+2025/12/14 02:13:18.500753 [:5016] launching election, ballot 2
+2025/12/14 02:13:18.508026 :5018 voting for node :5016 . Number of votes received 2
+2025/12/14 02:13:18.508289 [:5016] Prepare to :5019 failed: rpc error: code = Unknown desc = [:5019] node is disabled
+2025/12/14 02:13:18.508891 [:5016] Prepare to :5020 failed: rpc error: code = Unknown desc = [:5020] node is disabled
+2025/12/14 02:13:18.509396 :5017 voting for node :5016 . Number of votes received 3
+2025/12/14 02:13:18.509396 Election post merge logs :: Logs are
+2025/12/14 02:13:18.509396 For node::5016
+
+2025/12/14 02:13:18.509749 (Execute 0 1 
+2025/12/14 02:13:18.509749 (3 5401 1.000000)
+2025/12/14 02:13:18.509749 )
+2025/12/14 02:13:18.509749 (Execute 0 2 
+2025/12/14 02:13:18.509749 (1803 5402 1.000000)
+2025/12/14 02:13:18.509749 )
+2025/12/14 02:13:18.509749 (Execute 0 3 
+2025/12/14 02:13:18.509749 (3603 5403 1.000000)
+2025/12/14 02:13:18.509749 )
+2025/12/14 02:13:18.509749 (Execute 0 4 
+2025/12/14 02:13:18.509749 (5404 7204 1.000000)
+2025/12/14 02:13:18.509749 )
+2025/12/14 02:13:18.509749 
+
+2025/12/14 02:13:18.509749 [:5016] became leader with ballot 2
+2025/12/14 02:13:18.509749 Send Heartbeat
+2025/12/14 02:13:18.512832 NewView RPC to :5020 failed: rpc error: code = Unknown desc = [:5020] node is disabled
+2025/12/14 02:13:18.512832 NewView RPC to :5019 failed: rpc error: code = Unknown desc = [:5019] node is disabled
+2025/12/14 02:13:19.003527 [:5016] got Prepare, ballot 2 (current 2)
+2025/12/14 02:13:19.014262 [:5016] RECEIVED NEW-VIEW from :5017 (ballot 2)

@@ -1,0 +1,149 @@
+2025/12/19 16:24:39.535677 Creating new node at port :5008
+2025/12/19 16:24:39.677945 Created new node
+2025/12/19 16:24:39.677945 Connected with peers
+2025/12/19 16:24:39.683224 Node running on :5008
+2025/12/19 16:24:39.683224 Connected with node: :5007
+2025/12/19 16:24:40.679324 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:42.680457 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:44.682390 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:46.705357 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:48.706360 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:50.707672 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:52.708624 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:54.709229 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:56.710482 connectPeers: retrying :5009 in 1s...
+2025/12/19 16:24:57.795608 Connected with node: :5009
+2025/12/19 16:25:02.517727 [:5008] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5007
+2025/12/19 16:25:02.522054 Connected with node: :5007
+2025/12/19 16:25:02.526745 Connected with node: :5009
+2025/12/19 16:25:02.819505 [:5008] ResetDB: balances reset to 10 for shard 6001-9000
+2025/12/19 16:25:03.157303 For node :5008 disabled? false
+2025/12/19 16:25:03.159497 Connected with node: :5007
+2025/12/19 16:25:03.160100 Connected with node: :5009
+2025/12/19 16:25:03.558384 [:5008] catchup: fetching logs from :5007
+2025/12/19 16:25:03.827963 [:5008] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:03.827963 [:5008] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:03.827963 [:5008] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:03.831073 [:5008] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:03.867648 [:5008] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=6002->2002 amt=1.00
+2025/12/19 16:25:03.867648 [:5008] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=2 ballot=0 txn=6002->2002 amt=1.00 ts=1766179501283187902
+2025/12/19 16:25:03.867648 [:5008] Accept2PC: accepted seq=2 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:03.871837 [:5008] Commit2PC: seq=2 ballot=0 phase=PREPARE_PHASE txn=6002->2002 amt=1.00
+2025/12/19 16:25:03.873268 [:5008] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:03.873268 [:5008] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:03.873268 [:5008] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:03.875471 [:5008] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=5002->6001 amt=1.00
+2025/12/19 16:25:03.875471 [:5008] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:03.875471 [:5008] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:03.875471 For node::5008
+
+2025/12/19 16:25:03.875471 (Execute 0 1 
+2025/12/19 16:25:03.875471 (5002 6001 1.000000)
+2025/12/19 16:25:03.875471 )
+2025/12/19 16:25:03.875471 
+
+2025/12/19 16:25:03.875471 [:5008] Balances after txn 5002->6001 ts=1766179501283187901 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:03.887616 [:5008] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=6002->2002 amt=1.00
+2025/12/19 16:25:03.887616 [:5008] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=6002->2002 amt=1.00 ts=1766179501283187902
+2025/12/19 16:25:03.887616 [:5008] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:03.892200 [:5008] Commit2PC: seq=2 ballot=0 phase=COMMIT_PHASE txn=6002->2002 amt=1.00
+2025/12/19 16:25:03.892756 [:5008] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:03.892756 [:5008] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=6002->2002 amt=1.00 ts=1766179501283187902
+2025/12/19 16:25:03.892756 For node::5008
+
+2025/12/19 16:25:03.892756 (Execute 0 1 
+2025/12/19 16:25:03.892756 (5002 6001 1.000000)
+2025/12/19 16:25:03.892756 )
+2025/12/19 16:25:03.892756 (Execute 0 2 
+2025/12/19 16:25:03.892756 (6002 2002 1.000000)
+2025/12/19 16:25:03.892756 )
+2025/12/19 16:25:03.892756 
+
+2025/12/19 16:25:03.892756 [:5008] Balances after txn 6002->2002 ts=1766179501283187902 : from=10 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:03.936491 [:5008] Accept2PC: ballot=0 seq=3 phase=PREPARE_PHASE txn=2003->6003 amt=1.00
+2025/12/19 16:25:03.936491 [:5008] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=3 ballot=0 txn=2003->6003 amt=1.00 ts=1766179501283187903
+2025/12/19 16:25:03.936491 [:5008] Accept2PC: accepted seq=3 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:03.937551 [:5008] Commit2PC: seq=3 ballot=0 phase=PREPARE_PHASE txn=2003->6003 amt=1.00
+2025/12/19 16:25:03.963482 [:5008] Accept2PC: ballot=0 seq=3 phase=COMMIT_PHASE txn=2003->6003 amt=1.00
+2025/12/19 16:25:03.963482 [:5008] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=3 ballot=0 txn=2003->6003 amt=1.00 ts=1766179501283187903
+2025/12/19 16:25:03.963482 [:5008] Accept2PC: accepted seq=3 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:03.964539 [:5008] Commit2PC: seq=3 ballot=0 phase=COMMIT_PHASE txn=2003->6003 amt=1.00
+2025/12/19 16:25:03.964539 [:5008] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:03.964539 [:5008] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=3 ballot=0 txn=2003->6003 amt=1.00 ts=1766179501283187903
+2025/12/19 16:25:03.964539 For node::5008
+
+2025/12/19 16:25:03.964539 (Execute 0 1 
+2025/12/19 16:25:03.964539 (5002 6001 1.000000)
+2025/12/19 16:25:03.964539 )
+2025/12/19 16:25:03.964539 (Execute 0 2 
+2025/12/19 16:25:03.964539 (6002 2002 1.000000)
+2025/12/19 16:25:03.964539 )
+2025/12/19 16:25:03.964721 (Execute 0 3 
+2025/12/19 16:25:03.964721 (2003 6003 1.000000)
+2025/12/19 16:25:03.964721 )
+2025/12/19 16:25:03.964721 
+
+2025/12/19 16:25:03.964721 [:5008] Balances after txn 2003->6003 ts=1766179501283187903 : from=10 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:04.028535 [:5008] Accept2PC: ballot=0 seq=4 phase=PREPARE_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:04.029053 [:5008] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:04.029053 [:5008] Accept2PC: accepted seq=4 ballot=0 phase=PREPARE_PHASE
+2025/12/19 16:25:04.030180 [:5008] Commit2PC: seq=4 ballot=0 phase=PREPARE_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:04.037635 [:5008] Accept2PC: ballot=0 seq=4 phase=COMMIT_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:04.037635 [:5008] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:04.037635 [:5008] Accept2PC: accepted seq=4 ballot=0 phase=COMMIT_PHASE
+2025/12/19 16:25:04.038813 [:5008] Commit2PC: seq=4 ballot=0 phase=COMMIT_PHASE txn=6004->5004 amt=1.00
+2025/12/19 16:25:04.038813 [:5008] Commit2PC: Phase: COMMIT_PHASE
+2025/12/19 16:25:04.038813 [:5008] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:04.038813 For node::5008
+
+2025/12/19 16:25:04.038813 (Execute 0 1 
+2025/12/19 16:25:04.038813 (5002 6001 1.000000)
+2025/12/19 16:25:04.038813 )
+2025/12/19 16:25:04.038813 (Execute 0 2 
+2025/12/19 16:25:04.038813 (6002 2002 1.000000)
+2025/12/19 16:25:04.038813 )
+2025/12/19 16:25:04.038813 (Execute 0 3 
+2025/12/19 16:25:04.038813 (2003 6003 1.000000)
+2025/12/19 16:25:04.039329 )
+2025/12/19 16:25:04.039329 (Execute 0 4 
+2025/12/19 16:25:04.039329 (6004 5004 1.000000)
+2025/12/19 16:25:04.039329 )
+2025/12/19 16:25:04.039388 
+
+2025/12/19 16:25:04.039444 [:5008] Balances after txn 6004->5004 ts=1766179501283187905 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/19 16:25:05.189896 [:5008] WAL saved seq=1 fromID=5002 trackFrom=false beforeFrom=0 toID=6001 trackTo=true beforeTo=10
+2025/12/19 16:25:05.346860 [:5008] WAL saved seq=2 fromID=6002 trackFrom=true beforeFrom=10 toID=2002 trackTo=false beforeTo=0
+2025/12/19 16:25:05.511577 [:5008] WAL saved seq=3 fromID=2003 trackFrom=false beforeFrom=0 toID=6003 trackTo=true beforeTo=10
+2025/12/19 16:25:05.669154 [:5008] WAL saved seq=4 fromID=6004 trackFrom=true beforeFrom=10 toID=5004 trackTo=false beforeTo=0
+2025/12/19 16:25:05.871986 [:5008] executeCrossShardWithWal applied seq=1
+2025/12/19 16:25:05.871986 [:5008] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:05.871986 [:5008] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=5002->6001 amt=1.00 ts=1766179501283187901
+2025/12/19 16:25:05.871986 [:5008] Balances after txn 5002->6001 ts=1766179501283187901 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:25:06.056789 [:5008] executeCrossShardWithWal applied seq=2
+2025/12/19 16:25:06.057463 [:5008] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:06.057463 [:5008] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=6002->2002 amt=1.00 ts=1766179501283187902
+2025/12/19 16:25:06.057463 [:5008] Balances after txn 6002->2002 ts=1766179501283187902 : from=9 (err=<nil>) to=10 (err=<nil>)
+2025/12/19 16:25:06.222274 [:5008] executeCrossShardWithWal applied seq=3
+2025/12/19 16:25:06.222274 [:5008] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:06.222274 [:5008] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=2003->6003 amt=1.00 ts=1766179501283187903
+2025/12/19 16:25:06.223001 [:5008] Balances after txn 2003->6003 ts=1766179501283187903 : from=10 (err=<nil>) to=11 (err=<nil>)
+2025/12/19 16:25:06.376127 [:5008] executeCrossShardWithWal applied seq=4
+2025/12/19 16:25:06.376127 [:5008] Commit2PC: Phase: PREPARE_PHASE
+2025/12/19 16:25:06.376127 [:5008] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=6004->5004 amt=1.00 ts=1766179501283187905
+2025/12/19 16:25:06.376127 [:5008] Balances after txn 6004->5004 ts=1766179501283187905 : from=9 (err=<nil>) to=0 (err=<nil>)
+2025/12/19 16:25:22.425740 [:5008] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5007
+2025/12/19 16:25:22.428503 Connected with node: :5007
+2025/12/19 16:25:22.430589 Connected with node: :5009
+2025/12/19 16:25:22.538859 [:5008] ResetDB: balances reset to 10 for shard 6001-9000
+2025/12/19 16:25:22.955743 For node :5008 disabled? false
+2025/12/19 16:25:22.958383 Connected with node: :5007
+2025/12/19 16:25:22.958383 Connected with node: :5009
+2025/12/19 16:25:23.357216 [:5008] catchup: fetching logs from :5007
+2025/12/19 16:26:05.705399 [:5008] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5007
+2025/12/19 16:26:05.715562 Connected with node: :5009
+2025/12/19 16:26:05.715562 Connected with node: :5007
+2025/12/19 16:26:06.048137 [:5008] ResetDB: balances reset to 10 for shard 6001-9000
+2025/12/19 16:26:06.272765 For node :5008 disabled? false
+2025/12/19 16:26:06.275077 Connected with node: :5009
+2025/12/19 16:26:06.275596 Connected with node: :5007
+2025/12/19 16:26:06.673300 [:5008] catchup: fetching logs from :5007

@@ -1,0 +1,318 @@
+syntax = "proto3";
+
+package node;
+
+option go_package = "mpaxos_hw1/proto/hw1/node";
+
+service Node {
+    rpc request(TxnMessage) returns (Reply);
+    rpc Request2PC(TxnMessage) returns (Reply);   // cross-shard 2PC entrypoint
+    rpc accept(AcceptMsg) returns (AcceptedMsg);
+    // 2PC-specific RPCs (separate from intra-shard Multi-Paxos)
+    rpc Prepare2PC(Prepare2PCReq) returns (Prepare2PCResp);
+    rpc Accept2PC(Accept2PCMsg) returns (Accept2PCResp);
+    rpc Commit2PC(Commit2PCMsg) returns (Acknowledgement);
+    rpc Abort2PC(Abort2PCMsg) returns (Acknowledgement);
+    rpc CommitPhase2PC(CommitPhase2PCReq) returns (CommitPhase2PCResp);
+    // rpc accepted(AcceptedReq) returns (Acknowledgement);
+    rpc commit(CommitReq) returns (Acknowledgement);
+    // rpc reply(ReplyReq) returns (Acknowledgement);
+    rpc prepare(PrepareReq) returns (PromiseMsg);
+    rpc heartbeat(HeartbeatMsg) returns (Acknowledgement);
+    rpc NewView(NewViewRequest) returns (NewViewReply);
+    rpc SetNodeState(NodeStateRequest) returns (NodeStateReply);
+    rpc PrintLog(PrintLogRequest) returns (PrintLogResponse);
+    rpc PrintDB(PrintDBRequest) returns (PrintDBResponse);
+    rpc PrintStatus(PrintStatusRequest) returns (PrintStatusResponse);
+    rpc PrintView(PrintViewRequest) returns (PrintViewResponse);
+    rpc GetViewEntries(GetViewEntriesReq) returns (GetViewEntriesResp);
+    rpc GetLogs(GetLogsReq)               returns (GetLogsResp);
+    rpc GetTxnStatus(GetTxnStatusReq)     returns (GetTxnStatusResp);
+    rpc GetDB(GetDBReq)                   returns (GetDBResp);
+    // Migration support: set explicit balances on a node (used during resharding).
+    rpc SetBalance(SetBalanceReq)         returns (SetBalanceResp);
+    rpc GetBalance(GetBalanceReq)         returns (GetBalanceResp);
+    rpc Checkpoint(CheckpointMsg) returns (Acknowledgement);
+    rpc ResetDB(ResetDBReq) returns (ResetDBResp);
+}
+
+message AcceptMsg {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+}
+
+// TwoPCPhase indicates whether the replicated record is for prepare or abort.
+enum TwoPCPhase {
+    PREPARE_PHASE = 0;
+    ABORT_PHASE   = 1;
+    COMMIT_PHASE  = 2;
+}
+
+message Accept2PCMsg {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+    TwoPCPhase phase = 4;
+}
+
+message TxnMessage {
+    Transaction txn = 1;
+    string timestamp = 2;
+    string client = 3;
+}
+
+message Acknowledgement {
+    string status = 1;
+    string node = 2;
+}
+
+message Transaction {
+    string from = 1;
+    string to = 2;
+    double amount = 3;
+}
+
+message AcceptedMsg {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+    string node = 4;
+}
+
+message Accept2PCResp {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+    string node = 4;
+    TwoPCPhase phase = 5;
+}
+
+message Commit2PCMsg {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+    TwoPCPhase phase = 4;
+}
+
+message Abort2PCMsg {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+    TwoPCPhase phase = 4;
+    string reason = 5;
+}
+
+message CommitPhase2PCReq {
+    TxnMessage msg = 1;
+    int64 seq = 2;
+    int32 ballot = 3;
+    TwoPCPhase phase = 4;
+}
+
+message CommitPhase2PCResp {
+    bool ok = 1;
+    string reason = 2;
+    string node = 3;
+}
+
+message CommitReq {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage msg = 3;
+}
+
+message Reply {
+    int32 ballot = 1;
+    string timestamp = 2;
+    string client = 3;
+    bool reply = 4;
+    string node = 5;
+}
+
+message PrepareReq {
+    int32 ballot = 1;
+    string sender = 2;
+}
+
+message PromiseMsg {
+    int32 ballot = 1;
+    repeated AcceptLog log = 2;
+    string node = 3;
+    bool ok = 4;
+    int64  cp_seq    = 5;        // highest checkpoint seq this node knows
+    string cp_digest = 6;
+}
+
+message AcceptLog {
+    int32 ballot = 1;
+    int64 seq = 2;
+    TxnMessage txn = 3;
+    string status = 4;
+    string timestamp = 5;
+    string node = 6;
+}
+
+message HeartbeatMsg {
+    int32 ballot = 1;
+    string leader = 2;
+    string sender = 3;
+}
+
+message NewViewRequest {
+  int32 ballot = 1;
+  repeated AcceptLog entries = 2;
+  string sender = 3;
+  int64  cp_seq    = 5;        // highest checkpoint seq in the leader's promise quorum
+  string cp_digest = 6; 
+}
+
+message NewViewReply {
+  bool success = 1;
+  string message = 2;
+}
+
+message NodeStateRequest {
+  bool enabled = 1;
+}
+
+message NodeStateReply {
+  bool success = 1;
+  string msg = 2;
+}
+
+message PrintLogRequest {
+    string node_addr = 1;
+}
+
+message PrintLogResponse {
+    repeated LogEntry entries = 1;
+    string message = 2;
+}
+
+message PrintDBRequest {
+    string node_addr = 1;
+}
+
+message PrintDBResponse {
+    map<string, double> database = 1;
+    string message = 2;
+}
+
+message PrintStatusRequest {
+    int64 sequence_number = 1;
+}
+
+message PrintStatusResponse {
+    message NodeStatus {
+        string node_addr = 1;
+        string status = 2;
+        int32 ballot = 3;
+        string transaction = 4;
+    }
+    repeated NodeStatus statuses = 1;
+    string message = 2;
+}
+
+message PrintViewRequest {
+    // Empty request
+}
+
+message PrintViewResponse {
+    message NewViewInfo {
+        string sender = 1;
+        int32 ballot = 2;
+        int64 entry_count = 3;
+        string timestamp = 4;
+    }
+    repeated NewViewInfo new_views = 1;
+    string message = 2;
+}
+
+message LogEntry {
+    int64 sequence = 1;
+    int32 ballot = 2;
+    string status = 3;
+    string transaction = 4;
+    string node = 5;
+    string timestamp = 6;
+}
+
+message GetViewEntriesReq {}
+message GetViewEntriesResp {
+    message Row {
+        string status = 1;
+        int64  seq    = 2;
+        int32  ballot = 3;
+        string from   = 4;
+        string to     = 5;
+        double amount = 6;
+        string node   = 7;
+        string timestamp = 8;
+    }
+    message View { int64 ballot = 1; string leader = 2; string sender = 3; string timestamp = 4; repeated Row entries = 5;}
+    repeated View views = 1;
+}
+
+message GetLogsReq {}
+message GetLogsResp {
+  message Row {
+    string status = 1;
+    int64  seq    = 2;
+    int32  ballot = 3;
+    string from   = 4;
+    string to     = 5;
+    double amount = 6;
+    string node   = 7;
+    string timestamp = 8;
+  }
+  repeated Row rows = 1;
+}
+
+message GetTxnStatusReq { int64 seq = 1; } // the request's unique timestamp
+message GetTxnStatusResp {
+  string status = 1; // UNKNOWN | Accepted | Commit | Execute | ...
+  int64  seq    = 2;
+  int32  ballot = 3;
+}
+
+message GetDBReq {}
+message GetDBResp { map<string, double> balances = 1; }
+
+// SetBalance writes an explicit balance for id (used for data migration/resharding).
+message SetBalanceReq {
+  int64 id = 1;
+  double value = 2;
+}
+
+message SetBalanceResp {
+  bool ok = 1;
+  string msg = 2;
+  string node = 3;
+}
+
+message GetBalanceReq { int64 id = 1; }
+message GetBalanceResp { bool ok = 1; double balance = 2; string msg = 3; string node = 4; }
+
+message CheckpointMsg {
+  int32  ballot   = 1;
+  int64  seq      = 2;
+  string digest   = 3;
+  string timestamp = 4;
+}
+
+message ResetDBReq { int64 value = 1; }
+message ResetDBResp { bool ok = 1; string msg = 2; }
+
+// 2PC prepare request from coordinator to participant leader
+message Prepare2PCReq {
+  TxnMessage request = 1;
+  string coordinator = 2;
+}
+
+message Prepare2PCResp {
+  bool ok = 1;
+  string reason = 2;
+  string node = 3;
+  int64 seq = 4;
+}

@@ -1,0 +1,9 @@
+{
+  "total_ids": 9000,
+  "default_balance": 10,
+  "clusters": [
+    {"start_id":1,"end_id": 3000,"nodes":[":5001",":5002",":5003"]},
+    {"start_id":3001,"end_id":6000,"nodes":[":5004",":5005",":5006"]},
+    {"start_id":6001,"end_id":9000,"nodes":[":5007",":5008",":5009"]}
+  ]
+}

@@ -1,0 +1,25 @@
+ $env:CLUSTER_CONFIG="D:\CSE535DistributedSystems\cft-AshrayShetty4\hw1 - Stable\config\cluster.json"
+
+ ```go run tools/gen_redistribution_map.go -config config/cluster.json -out config/redistribution_map.json```
+
+ ```go run server/server.go -bench :5001```
+
+ go run client/client.go -bench -bench-count=200 -bench-ro-pct=0.2 -bench-cross-pct=0.1 -bench-skew=0
+
+ export CLUSTER_CONFIG="/d/CSE535DistributedSystems/2pc-AshrayShetty4/config/cluster.json"
+
+{
+  "total_ids": 9000,
+  "default_balance": 10,
+  "clusters": [
+    { "start_id": 1,    "end_id": 1800, "nodes": [":5001", ":5002", ":5003", ":5004", ":5005"] },
+    { "start_id": 1801, "end_id": 3600, "nodes": [":5006", ":5007", ":5008", ":5009", ":5010"] },
+    { "start_id": 3601, "end_id": 5400, "nodes": [":5011", ":5012", ":5013", ":5014", ":5015"] },
+    { "start_id": 5401, "end_id": 7200, "nodes": [":5016", ":5017", ":5018", ":5019", ":5020"] },
+    { "start_id": 7201, "end_id": 9000, "nodes": [":5021", ":5022", ":5023", ":5024", ":5025"] }
+  ]
+}
+
+line 1496
+num, _ := strconv.Atoi(strings.TrimPrefix(nodes[i], "n"))
+nodes[i] = fmt.Sprintf(":%d", 5000+num)

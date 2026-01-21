@@ -1,0 +1,209 @@
+2025/12/13 16:12:06.071754 Creating new node at port :5012
+2025/12/13 16:12:06.756916 Created new node
+2025/12/13 16:12:06.757920 Connected with peers
+2025/12/13 16:12:06.761375 Connected with node: :5011
+2025/12/13 16:12:06.761375 Node running on :5012
+2025/12/13 16:12:07.759278 connectPeers: retrying :5013 in 1s...
+2025/12/13 16:12:07.759278 connectPeers: retrying :5014 in 1s...
+2025/12/13 16:12:07.761056 connectPeers: retrying :5015 in 1s...
+2025/12/13 16:12:09.760209 connectPeers: retrying :5014 in 1s...
+2025/12/13 16:12:09.760209 connectPeers: retrying :5013 in 1s...
+2025/12/13 16:12:09.762627 connectPeers: retrying :5015 in 1s...
+2025/12/13 16:12:10.762860 Connected with node: :5013
+2025/12/13 16:12:11.761861 connectPeers: retrying :5014 in 1s...
+2025/12/13 16:12:11.763163 connectPeers: retrying :5015 in 1s...
+2025/12/13 16:12:13.762613 connectPeers: retrying :5014 in 1s...
+2025/12/13 16:12:13.763771 connectPeers: retrying :5015 in 1s...
+2025/12/13 16:12:14.763974 Connected with node: :5014
+2025/12/13 16:12:15.764359 connectPeers: retrying :5015 in 1s...
+2025/12/13 16:12:16.765458 Connected with node: :5015
+2025/12/13 16:12:53.133752 [:5012] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5011
+2025/12/13 16:12:53.157959 Connected with node: :5014
+2025/12/13 16:12:53.160121 Connected with node: :5013
+2025/12/13 16:12:53.163376 Connected with node: :5011
+2025/12/13 16:12:53.164753 Connected with node: :5015
+2025/12/13 16:12:53.466721 [:5012] ResetDB: balances reset to 10 for shard 3601-5400
+2025/12/13 16:12:53.877611 For node :5012 disabled? true
+2025/12/13 22:09:11.658478 [:5012] ResetDB: cleared state seq=0 ballot=0 logs=0 twoPC=0 leader=:5011
+2025/12/13 22:09:11.685655 Connected with node: :5013
+2025/12/13 22:09:11.686849 Connected with node: :5011
+2025/12/13 22:09:11.686849 Connected with node: :5014
+2025/12/13 22:09:11.687385 Connected with node: :5015
+2025/12/13 22:09:11.949126 [:5012] ResetDB: balances reset to 10 for shard 3601-5400
+2025/12/13 22:09:12.370473 For node :5012 disabled? false
+2025/12/13 22:09:12.372971 Connected with node: :5014
+2025/12/13 22:09:12.372971 Connected with node: :5015
+2025/12/13 22:09:12.372971 Connected with node: :5011
+2025/12/13 22:09:12.373475 Connected with node: :5013
+2025/12/13 22:09:12.770812 [:5012] catchup: fetching logs from :5011
+2025/12/13 22:09:13.024913 [:5012] Accept2PC: ballot=0 seq=1 phase=PREPARE_PHASE txn=2->3601 amt=1.00
+2025/12/13 22:09:13.024913 [:5012] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=1 ballot=0 txn=2->3601 amt=1.00 ts=1765681750032367401
+2025/12/13 22:09:13.024913 [:5012] Accept2PC: accepted seq=1 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.040846 [:5012] Accept2PC: ballot=0 seq=2 phase=PREPARE_PHASE txn=1802->3602 amt=1.00
+2025/12/13 22:09:13.040846 [:5012] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=2 ballot=0 txn=1802->3602 amt=1.00 ts=1765681750032367404
+2025/12/13 22:09:13.040846 [:5012] Accept2PC: accepted seq=2 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.058056 [:5012] Accept2PC: ballot=0 seq=3 phase=PREPARE_PHASE txn=3604->7203 amt=1.00
+2025/12/13 22:09:13.058056 [:5012] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=3 ballot=0 txn=3604->7203 amt=1.00 ts=1765681750032367408
+2025/12/13 22:09:13.058056 [:5012] Accept2PC: accepted seq=3 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.140808 [:5012] Commit2PC: seq=3 ballot=0 phase=PREPARE_PHASE txn=3604->7203 amt=1.00
+2025/12/13 22:09:13.141400 [:5012] Commit2PC: seq=2 ballot=0 phase=PREPARE_PHASE txn=1802->3602 amt=1.00
+2025/12/13 22:09:13.141400 [:5012] Commit2PC: seq=1 ballot=0 phase=PREPARE_PHASE txn=2->3601 amt=1.00
+2025/12/13 22:09:13.143604 [:5012] Accept2PC: ballot=0 seq=4 phase=PREPARE_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.143604 [:5012] 2PC log: status=P paxos=Accepted phase=PREPARE_PHASE seq=4 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.144958 [:5012] Accept2PC: accepted seq=4 ballot=0 phase=PREPARE_PHASE
+2025/12/13 22:09:13.145998 [:5012] Accept2PC: ballot=0 seq=1 phase=COMMIT_PHASE txn=2->3601 amt=1.00
+2025/12/13 22:09:13.145998 [:5012] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=1 ballot=0 txn=2->3601 amt=1.00 ts=1765681750032367401
+2025/12/13 22:09:13.145998 [:5012] Accept2PC: accepted seq=1 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.147752 [:5012] Commit2PC: seq=1 ballot=0 phase=COMMIT_PHASE txn=2->3601 amt=1.00
+2025/12/13 22:09:13.147752 [:5012] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.147752 [:5012] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=1 ballot=0 txn=2->3601 amt=1.00 ts=1765681750032367401
+2025/12/13 22:09:13.147752 For node::5012
+
+2025/12/13 22:09:13.147752 (Execute 0 1 
+2025/12/13 22:09:13.147752 (2 3601 1.000000)
+2025/12/13 22:09:13.147752 )
+2025/12/13 22:09:13.147752 
+
+2025/12/13 22:09:13.147752 [:5012] Balances after txn 2->3601 ts=1765681750032367401 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.147752 [:5012] Commit2PC: seq=4 ballot=0 phase=PREPARE_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.147752 [:5012] Accept2PC: ballot=0 seq=3 phase=COMMIT_PHASE txn=3604->7203 amt=1.00
+2025/12/13 22:09:13.147752 [:5012] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=3 ballot=0 txn=3604->7203 amt=1.00 ts=1765681750032367408
+2025/12/13 22:09:13.148259 [:5012] Accept2PC: accepted seq=3 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.148784 [:5012] Commit2PC: seq=3 ballot=0 phase=COMMIT_PHASE txn=3604->7203 amt=1.00
+2025/12/13 22:09:13.148784 [:5012] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.148784 [:5012] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=3 ballot=0 txn=3604->7203 amt=1.00 ts=1765681750032367408
+2025/12/13 22:09:13.148784 For node::5012
+
+2025/12/13 22:09:13.148784 (Execute 0 1 
+2025/12/13 22:09:13.148784 (2 3601 1.000000)
+2025/12/13 22:09:13.148784 )
+2025/12/13 22:09:13.148784 (Execute 0 3 
+2025/12/13 22:09:13.148784 (3604 7203 1.000000)
+2025/12/13 22:09:13.148784 )
+2025/12/13 22:09:13.148784 
+
+2025/12/13 22:09:13.148784 [:5012] Balances after txn 3604->7203 ts=1765681750032367408 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:09:13.151013 [:5012] Accept2PC: ballot=0 seq=2 phase=COMMIT_PHASE txn=1802->3602 amt=1.00
+2025/12/13 22:09:13.151013 [:5012] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=2 ballot=0 txn=1802->3602 amt=1.00 ts=1765681750032367404
+2025/12/13 22:09:13.151013 [:5012] Accept2PC: accepted seq=2 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.151013 [:5012] Accept2PC: ballot=0 seq=4 phase=COMMIT_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.151013 [:5012] 2PC log: status=C paxos=Accepted phase=COMMIT_PHASE seq=4 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.151013 [:5012] Accept2PC: accepted seq=4 ballot=0 phase=COMMIT_PHASE
+2025/12/13 22:09:13.153060 [:5012] Commit2PC: seq=2 ballot=0 phase=COMMIT_PHASE txn=1802->3602 amt=1.00
+2025/12/13 22:09:13.153060 [:5012] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.153060 [:5012] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=2 ballot=0 txn=1802->3602 amt=1.00 ts=1765681750032367404
+2025/12/13 22:09:13.153060 For node::5012
+
+2025/12/13 22:09:13.153060 (Execute 0 1 
+2025/12/13 22:09:13.153060 (2 3601 1.000000)
+2025/12/13 22:09:13.153060 )
+2025/12/13 22:09:13.153060 (Execute 0 2 
+2025/12/13 22:09:13.153060 (1802 3602 1.000000)
+2025/12/13 22:09:13.153060 )
+2025/12/13 22:09:13.153060 (Execute 0 3 
+2025/12/13 22:09:13.153060 (3604 7203 1.000000)
+2025/12/13 22:09:13.153060 )
+2025/12/13 22:09:13.153060 
+
+2025/12/13 22:09:13.153060 [:5012] Balances after txn 1802->3602 ts=1765681750032367404 : from=0 (err=<nil>) to=10 (err=<nil>)
+2025/12/13 22:09:13.155145 [:5012] Commit2PC: seq=4 ballot=0 phase=COMMIT_PHASE txn=3603->5403 amt=1.00
+2025/12/13 22:09:13.155145 [:5012] Commit2PC: Phase: COMMIT_PHASE
+2025/12/13 22:09:13.155145 [:5012] 2PC log: status=C paxos=Commit phase=COMMIT_PHASE seq=4 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:13.155145 For node::5012
+
+2025/12/13 22:09:13.155145 (Execute 0 1 
+2025/12/13 22:09:13.155145 (2 3601 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 2 
+2025/12/13 22:09:13.155145 (1802 3602 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 3 
+2025/12/13 22:09:13.155145 (3604 7203 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 (Execute 0 4 
+2025/12/13 22:09:13.155145 (3603 5403 1.000000)
+2025/12/13 22:09:13.155145 )
+2025/12/13 22:09:13.155145 
+
+2025/12/13 22:09:13.155145 [:5012] Balances after txn 3603->5403 ts=1765681750032367407 : from=10 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:09:14.153799 [:5012] WAL saved seq=3 fromID=3604 trackFrom=true beforeFrom=10 toID=7203 trackTo=false beforeTo=0
+2025/12/13 22:09:14.348254 [:5012] WAL saved seq=2 fromID=1802 trackFrom=false beforeFrom=0 toID=3602 trackTo=true beforeTo=10
+2025/12/13 22:09:14.616522 [:5012] executeCrossShardWithWal applied seq=2
+2025/12/13 22:09:14.616522 [:5012] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:14.616522 [:5012] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=2 ballot=0 txn=1802->3602 amt=1.00 ts=1765681750032367404
+2025/12/13 22:09:14.616522 [:5012] Balances after txn 1802->3602 ts=1765681750032367404 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/13 22:09:14.801358 [:5012] WAL saved seq=1 fromID=2 trackFrom=false beforeFrom=0 toID=3601 trackTo=true beforeTo=10
+2025/12/13 22:09:14.975603 [:5012] WAL saved seq=4 fromID=3603 trackFrom=true beforeFrom=10 toID=5403 trackTo=false beforeTo=0
+2025/12/13 22:09:15.271670 [:5012] executeCrossShardWithWal applied seq=3
+2025/12/13 22:09:15.271670 [:5012] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.271670 [:5012] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=3 ballot=0 txn=3604->7203 amt=1.00 ts=1765681750032367408
+2025/12/13 22:09:15.271670 [:5012] Balances after txn 3604->7203 ts=1765681750032367408 : from=9 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:09:15.502795 [:5012] executeCrossShardWithWal applied seq=1
+2025/12/13 22:09:15.502795 [:5012] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.502795 [:5012] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=1 ballot=0 txn=2->3601 amt=1.00 ts=1765681750032367401
+2025/12/13 22:09:15.502795 [:5012] Balances after txn 2->3601 ts=1765681750032367401 : from=0 (err=<nil>) to=11 (err=<nil>)
+2025/12/13 22:09:15.616868 [:5012] executeCrossShardWithWal applied seq=4
+2025/12/13 22:09:15.617625 [:5012] Commit2PC: Phase: PREPARE_PHASE
+2025/12/13 22:09:15.617625 [:5012] 2PC log: status=P paxos=Commit phase=PREPARE_PHASE seq=4 ballot=0 txn=3603->5403 amt=1.00 ts=1765681750032367407
+2025/12/13 22:09:15.617625 [:5012] Balances after txn 3603->5403 ts=1765681750032367407 : from=9 (err=<nil>) to=0 (err=<nil>)
+2025/12/13 22:57:28.511614 [:5012] heartbeat timeout, starting election
+2025/12/13 22:57:31.503366 [:5012] launching election, ballot 1
+2025/12/13 22:57:31.540114 [:5012] Prepare to :5014 failed: rpc error: code = Unknown desc = [:5014] node is disabled
+2025/12/13 22:57:31.543299 [:5012] Prepare to :5015 failed: rpc error: code = Unknown desc = [:5015] node is disabled
+2025/12/13 22:57:31.700418 :5011 voting for node :5012 . Number of votes received 2
+2025/12/13 22:57:31.700418 :5013 voting for node :5012 . Number of votes received 3
+2025/12/13 22:57:31.700418 Election post merge logs :: Logs are
+2025/12/13 22:57:31.700418 For node::5012
+
+2025/12/13 22:57:31.700418 (Execute 0 1 
+2025/12/13 22:57:31.700418 (2 3601 1.000000)
+2025/12/13 22:57:31.700418 )
+2025/12/13 22:57:31.700418 (Execute 0 2 
+2025/12/13 22:57:31.700418 (1802 3602 1.000000)
+2025/12/13 22:57:31.700418 )
+2025/12/13 22:57:31.700908 (Execute 0 3 
+2025/12/13 22:57:31.700908 (3604 7203 1.000000)
+2025/12/13 22:57:31.700908 )
+2025/12/13 22:57:31.700908 (Execute 0 4 
+2025/12/13 22:57:31.700908 (3603 5403 1.000000)
+2025/12/13 22:57:31.700908 )
+2025/12/13 22:57:31.700908 
+
+2025/12/13 22:57:31.700908 [:5012] became leader with ballot 1
+2025/12/13 22:57:31.700908 Send Heartbeat
+2025/12/13 22:57:31.709422 NewView RPC to :5014 failed: rpc error: code = Unknown desc = [:5014] node is disabled
+2025/12/13 22:57:31.734820 NewView RPC to :5015 failed: rpc error: code = Unknown desc = [:5015] node is disabled
+2025/12/13 23:42:33.180713 [:5012] got Prepare, ballot 2 (current 1)
+2025/12/13 23:42:33.200402 [:5012] RECEIVED NEW-VIEW from :5013 (ballot 2)
+2025/12/14 01:11:01.530985 [:5012] heartbeat timeout, starting election
+2025/12/14 01:11:01.530985 [:5012] launching election, ballot 3
+2025/12/14 01:11:01.550543 :5011 voting for node :5012 . Number of votes received 2
+2025/12/14 01:11:01.551499 :5013 voting for node :5012 . Number of votes received 3
+2025/12/14 01:11:01.555036 [:5012] Ignoring heartbeat from :5013 due to smaller ballot 2 < 3
+2025/12/14 01:11:01.561388 [:5012] got Prepare, ballot 3 (current 3)
+2025/12/14 01:11:01.605171 [:5012] Prepare to :5014 failed: rpc error: code = Unknown desc = [:5014] node is disabled
+2025/12/14 01:11:01.607935 [:5012] RECEIVED NEW-VIEW from :5011 (ballot 3)
+2025/12/14 01:11:01.603725 [:5012] Prepare to :5015 failed: rpc error: code = Unknown desc = [:5015] node is disabled
+2025/12/14 01:11:01.661450 Election post merge logs :: Logs are
+2025/12/14 01:11:01.661450 For node::5012
+
+2025/12/14 01:11:01.661521 (Execute 0 1 
+2025/12/14 01:11:01.661521 (2 3601 1.000000)
+2025/12/14 01:11:01.661636 )
+2025/12/14 01:11:01.661636 (Execute 0 2 
+2025/12/14 01:11:01.661698 (1802 3602 1.000000)
+2025/12/14 01:11:01.661698 )
+2025/12/14 01:11:01.661767 (Execute 0 3 
+2025/12/14 01:11:01.661767 (3604 7203 1.000000)
+2025/12/14 01:11:01.661767 )
+2025/12/14 01:11:01.661767 (Execute 0 4 
+2025/12/14 01:11:01.661850 (3603 5403 1.000000)
+2025/12/14 01:11:01.661850 )
+2025/12/14 01:11:01.661909 
+
+2025/12/14 01:11:01.661909 [:5012] became leader with ballot 3
+2025/12/14 01:11:01.661909 Send Heartbeat
+2025/12/14 01:11:01.695378 NewView RPC to :5014 failed: rpc error: code = Unknown desc = [:5014] node is disabled
+2025/12/14 01:11:01.712756 NewView RPC to :5015 failed: rpc error: code = Unknown desc = [:5015] node is disabled
+2025/12/14 02:13:18.589401 [:5012] got Prepare, ballot 4 (current 3)
+2025/12/14 02:13:18.596910 [:5012] RECEIVED NEW-VIEW from :5013 (ballot 4)
